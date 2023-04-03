@@ -1,0 +1,983 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercice pratique HTML, Sass & JavaScript</title>
+
+    <!-- font awasome cdn link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="SASS/style.css">
+</head>
+
+<body>
+    <!-- header section starts -->
+
+    <header class="header">
+
+        <a href="#" class="logo"> <i class="fas fa-hiking"></i> Luxe home. </a>
+        
+        <nav class="navbar">
+            <div id="nav-close" class="fas fa-times"></div>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#shop">Shop</a>
+            <a href="#packages">Packages</a>
+            <a href="#reviews">Reviews</a>
+        </nav>
+
+        <div class="icons">
+            <div id="menu-btn" class="fas fa-bars"></div>
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <div id="search-btn" class="fas fa-search"></div>
+        </div>
+    </header>
+
+    <!-- header section ends -->
+    
+    <!-- search form -->
+
+    <div class="search-form">
+
+        <div id="close-search" class="fas fa-times"></div>
+
+        <form action="">
+            <input type="search" name="" placeholder="search here..." id="search-box">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+    </div>
+
+    <!-- Home section starts -->
+    
+    <section class="home" id="home">
+
+        <div class="swiper home-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                    <div class="box" style="background: url(Villa/villa\ 0.jpg) no-repeat;">
+                        <div class="content">
+                            <span>Live like</span>
+                            <h3>billionnaire</h3>
+                            <p>The first office suite in Linux was OpenOffice, created by SUN in the 2000s. When Oracle 
+                            bought SUN, the suite was no longer a priority for the famous database manager, so The Apache 
+                            Software Foundation took it under its wing. Nowadays, OpenOffice is rarely updated, and most 
+                            users are switching to LibreOffice. </p>
+                            <a href="#" class="btn"> get started</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="box second" style="background: url(Villa/salon\ 2.jpg) no-repeat;">
+                        <div class="content">
+                            <span>Live in</span>
+                            <h3>big house</h3>
+                            <p>The first office suite in Linux was OpenOffice, created by SUN in the 2000s. When Oracle 
+                            bought SUN, the suite was no longer a priority for the famous database manager, so The Apache 
+                            Software Foundation took it under its wing. Nowadays, OpenOffice is rarely updated, and most 
+                            users are switching to LibreOffice. </p>
+                            <a href="#" class="btn"> get started</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="box" style="background: url(Villa/chambre\ 3.jpg) no-repeat;">
+                        <div class="content">
+                            <span>Sleep in</span>
+                            <h3>buitifull room</h3>
+                            <p>The first office suite in Linux was OpenOffice, created by SUN in the 2000s. When Oracle 
+                            bought SUN, the suite was no longer a priority for the famous database manager, so The Apache 
+                            Software Foundation took it under its wing. Nowadays, OpenOffice is rarely updated, and most 
+                            users are switching to LibreOffice.</p>
+                            <a href="#" class="btn"> get started</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+
+        </div>
+
+    </section>
+    
+    <!-- Home section ends -->
+
+    <!-- categorie section starts -->
+    <section class="category">
+
+        <h1 class="heading">Billonnaire Villa</h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="Villa/villa 1.jpg" alt="">
+                <h3>Villa haut standdind</h3>
+                <p>The first office suite in Linux was OpenOffice, created by SUN in the 2000s.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+
+            <div class="box">
+                <img src="Villa/chambre 1.jpg" alt="">
+                <h3>Chambre haut standdind</h3>
+                <p>The first office suite in Linux was OpenOffice, created by SUN in the 2000s.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+
+            <div class="box">
+                <img src="Villa/cuisine 1.jpg" alt="">
+                <h3>Cuisine haut standdind</h3>
+                <p>The first office suite in Linux was OpenOffice, created by SUN in the 2000s.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+
+            <div class="box">
+                <img src="Villa/douche 1.jpg" alt="">
+                <h3>Douche haut standdind</h3>
+                <p>The first office suite in Linux was OpenOffice, created by SUN in the 2000s.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+
+            <div class="box">
+                <img src="Villa/burreau 1.jpg" alt="">
+                <h3>Burreau haut standdind</h3>
+                <p>The first office suite in Linux was OpenOffice, created by SUN in the 2000s.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+
+            <div class="box">
+                <img src="Villa/terrasse 2.jpg" alt="">
+                <h3>Terrasse</h3>
+                <p>The first office suite in Linux was OpenOffice, created by SUN in the 2000s.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- categorie section ends -->
+
+    <!-- About section start -->
+
+    <section class="about" id="about">
+
+        <div class="image">
+            <img src="Villa/Aboout.jpg" alt="">
+        </div>
+
+        <div class="content">
+            <h3>Memorable outdoor experiences</h3>
+            <p>The first office suite in Linux was OpenOffice, created by SUN in the 2000s. When Oracle 
+                bought SUN, the suite was no longer a priority for the famous database manager, so The Apache 
+                Software Foundation took it under its wing. Nowadays, OpenOffice is rarely updated, and most 
+                users are switching to LibreOffice.</p>
+            <p>The first office suite in Linux was OpenOffice, created by SUN in the 2000s. When Oracle 
+                bought SUN, the suite was no longer a priority for the famous database manager.</p>
+            <a href="#" class="btn">read more</a>
+        </div>
+
+    </section>
+
+    <!-- About section ends -->
+
+    <!-- shop section start -->
+
+    <section class="shop" id="shop">
+
+        <h1 class="heading">Featured products</h1>
+
+        <div class="swiper product-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="Villa/burreau 2.jpg" alt="">
+                        <div class="icons">
+                            <a href="#" class="fas fa-shopping-cart"></a>
+                            <a href="#" class="fas fa-eye"></a>
+                            <a href="#" class="fas fa-share"></a>
+                        </div> 
+                    </div>
+                    <div class="content">
+                        <h3>Burreau avec mini salon</h3>
+                        <div class="price"> $1 000 - $5 000 </div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="Villa/burreau 3.jpg" alt="">
+                        <div class="icons">
+                            <a href="#" class="fas fa-shopping-cart"></a>
+                            <a href="#" class="fas fa-eye"></a>
+                            <a href="#" class="fas fa-share"></a>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <h3>Burreau avec mini salon et un table de reunion</h3>
+                        <div class="price"> $7 000 - $9 000 </div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="Villa/burreau 4.jpg" alt="">
+                        <div class="icons">
+                            <a href="#" class="fas fa-shopping-cart"></a>
+                            <a href="#" class="fas fa-eye"></a>
+                            <a href="#" class="fas fa-share"></a>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <h3>Burreau avec un espace pour les Meeting et Reunions</h3>
+                        <div class="price"> $5 000 - $8 000 </div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="Villa/villa 10.jfif" alt="">
+                        <div class="icons">
+                            <a href="#" class="fas fa-shopping-cart"></a>
+                            <a href="#" class="fas fa-eye"></a>
+                            <a href="#" class="fas fa-share"></a>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <h3>Villa avec Picine et vue sur la Ville</h3>
+                        <div class="price"> $20 000 - $50 000 </div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="Villa/villa 3.jpg" alt="">
+                        <div class="icons">
+                            <a href="#" class="fas fa-shopping-cart"></a>
+                            <a href="#" class="fas fa-eye"></a>
+                            <a href="#" class="fas fa-share"></a>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <h3>Villa R2 avec Picine</h3>
+                        <div class="price"> $40 000 - $80 000 </div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="Villa/villa 5.jpg" alt="">
+                        <div class="icons">
+                            <a href="#" class="fas fa-shopping-cart"></a>
+                            <a href="#" class="fas fa-eye"></a>
+                            <a href="#" class="fas fa-share"></a>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <h3>Villa R3 avec une Grande Picine et un Grand Jardin</h3>
+                        <div class="price"> $70 000 - $150 000 </div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="Villa/chambre 4.jfif" alt="">
+                        <div class="icons">
+                            <a href="#" class="fas fa-shopping-cart"></a>
+                            <a href="#" class="fas fa-eye"></a>
+                            <a href="#" class="fas fa-share"></a>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <h3>Chambre avec ecran plasma et un espace de detante</h3>
+                        <div class="price"> $200 - $500 </div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="Villa/chambre 3.jpg" alt="">
+                        <div class="icons">
+                            <a href="#" class="fas fa-shopping-cart"></a>
+                            <a href="#" class="fas fa-eye"></a>
+                            <a href="#" class="fas fa-share"></a>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <h3>Chambre grand lit avec un espace de detante</h3>
+                        <div class="price"> $100 - $300 </div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="Villa/douche 6.jfif" alt="">
+                        <div class="icons">
+                            <a href="#" class="fas fa-shopping-cart"></a>
+                            <a href="#" class="fas fa-eye"></a>
+                            <a href="#" class="fas fa-share"></a>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <h3>Douche avec benoie et arosoire</h3>
+                        <div class="price"> $100 - $200 </div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="Villa/douche 5.jfif" alt="">
+                        <div class="icons">
+                            <a href="#" class="fas fa-shopping-cart"></a>
+                            <a href="#" class="fas fa-eye"></a>
+                            <a href="#" class="fas fa-share"></a>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <h3>Grande douche</h3>
+                        <div class="price"> $200 - $300 </div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="Villa/douche 3.jfif" alt="">
+                        <div class="icons">
+                            <a href="#" class="fas fa-shopping-cart"></a>
+                            <a href="#" class="fas fa-eye"></a>
+                            <a href="#" class="fas fa-share"></a>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <h3>Simple douche</h3>
+                        <div class="price"> $50 - $150 </div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="Villa/cuisine 4.jpg" alt="">
+                        <div class="icons">
+                            <a href="#" class="fas fa-shopping-cart"></a>
+                            <a href="#" class="fas fa-eye"></a>
+                            <a href="#" class="fas fa-share"></a>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <h3>Grande cuisine blanche</h3>
+                        <div class="price"> $1 500 - $3 000 </div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="Villa/cuisine 3.jfif" alt="">
+                        <div class="icons">
+                            <a href="#" class="fas fa-shopping-cart"></a>
+                            <a href="#" class="fas fa-eye"></a>
+                            <a href="#" class="fas fa-share"></a>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <h3>Cuisine deux piece</h3>
+                        <div class="price"> $4 000 - $6 000 </div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="Villa/cuisine 2.jpg" alt="">
+                        <div class="icons">
+                            <a href="#" class="fas fa-shopping-cart"></a>
+                            <a href="#" class="fas fa-eye"></a>
+                            <a href="#" class="fas fa-share"></a>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <h3>Cuisine en boit et noir</h3>
+                        <div class="price"> $1 000 - $5 000 </div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="Villa/terrasse 2.jpg" alt="">
+                        <div class="icons">
+                            <a href="#" class="fas fa-shopping-cart"></a>
+                            <a href="#" class="fas fa-eye"></a>
+                            <a href="#" class="fas fa-share"></a>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <h3>Burreau avec mini salon</h3>
+                        <div class="price"> $1 000 - $5 000 </div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+
+        </div>
+
+    </section>
+
+    <!-- shop section ends -->
+
+    <!-- package section starts -->
+
+    <section class="packages" id="packages">
+
+        <h1 class="heading"> Popular packages</h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <div class="image">
+                    <img src="Villa/villa 9.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Featured tour package</h3>
+                    <p>The first office suite in Linux was OpenOffice.</p>
+                    <div class="price">$5 000 - $10 000</div>
+                    <a href="#" class="btn">Explore now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="Villa/villa 0.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Featured tour package</h3>
+                    <p>The first office suite in Linux was OpenOffice.</p>
+                    <div class="price">$5 000 - $10 000</div>
+                    <a href="#" class="btn">Explore now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="Villa/villa 8.jfif" alt="">
+                </div>
+                <div class="content">
+                    <h3>Featured tour package</h3>
+                    <p>The first office suite in Linux was OpenOffice.</p>
+                    <div class="price">$5 000 - $10 000</div>
+                    <a href="#" class="btn">Explore now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="Villa/burreau 7.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Featured tour package</h3>
+                    <p>The first office suite in Linux was OpenOffice.</p>
+                    <div class="price">$5 000 - $10 000</div>
+                    <a href="#" class="btn">Explore now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="Villa/burreau 6.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Featured tour package</h3>
+                    <p>The first office suite in Linux was OpenOffice.</p>
+                    <div class="price">$5 000 - $10 000</div>
+                    <a href="#" class="btn">Explore now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="Villa/salon 3.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Featured tour package</h3>
+                    <p>The first office suite in Linux was OpenOffice.</p>
+                    <div class="price">$5 000 - $10 000</div>
+                    <a href="#" class="btn">Explore now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="Villa/douche 5.jfif" alt="">
+                </div>
+                <div class="content">
+                    <h3>Featured tour package</h3>
+                    <p>The first office suite in Linux was OpenOffice.</p>
+                    <div class="price">$5 000 - $10 000</div>
+                    <a href="#" class="btn">Explore now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="Villa/douche 3.jfif" alt="">
+                </div>
+                <div class="content">
+                    <h3>Featured tour package</h3>
+                    <p>The first office suite in Linux was OpenOffice.</p>
+                    <div class="price">$5 000 - $10 000</div>
+                    <a href="#" class="btn">Explore now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="Villa/terrasse 1.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Featured tour package</h3>
+                    <p>The first office suite in Linux was OpenOffice.</p>
+                    <div class="price">$5 000 - $10 000</div>
+                    <a href="#" class="btn">Explore now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="Villa/salon 9.jfif" alt="">
+                </div>
+                <div class="content">
+                    <h3>Featured tour package</h3>
+                    <p>The first office suite in Linux was OpenOffice.</p>
+                    <div class="price">$5 000 - $10 000</div>
+                    <a href="#" class="btn">Explore now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="Villa/salon 7.jfif" alt="">
+                </div>
+                <div class="content">
+                    <h3>Featured tour package</h3>
+                    <p>The first office suite in Linux was OpenOffice.</p>
+                    <div class="price">$5 000 - $10 000</div>
+                    <a href="#" class="btn">Explore now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="Villa/salon 5.jfif" alt="">
+                </div>
+                <div class="content">
+                    <h3>Featured tour package</h3>
+                    <p>The first office suite in Linux was OpenOffice.</p>
+                    <div class="price">$5 000 - $10 000</div>
+                    <a href="#" class="btn">Explore now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="Villa/salon 2.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Featured tour package</h3>
+                    <p>The first office suite in Linux was OpenOffice.</p>
+                    <div class="price">$5 000 - $10 000</div>
+                    <a href="#" class="btn">Explore now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="Villa/salon 6.jfif" alt="">
+                </div>
+                <div class="content">
+                    <h3>Featured tour package</h3>
+                    <p>The first office suite in Linux was OpenOffice.</p>
+                    <div class="price">$5 000 - $10 000</div>
+                    <a href="#" class="btn">Explore now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="Villa/salon 4.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Featured tour package</h3>
+                    <p>The first office suite in Linux was OpenOffice.</p>
+                    <div class="price">$5 000 - $10 000</div>
+                    <a href="#" class="btn">Explore now</a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- package section ends -->
+
+    <!-- reviews section starts -->
+
+    <section class="reviews" id="reviews">
+
+        <h1 class="heading">Client's reviews</h1>
+
+        <div class="swiper review-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide slide">
+                    <p class="text">he first office suite in Linux was OpenOffice, created by SUN in the 2000s. When Oracle 
+                        bought SUN, the suite was no longer a priority for the famous database manager, so The Apache 
+                        Software Foundation took it under its wing.
+                    </p>
+                    <div class="user">
+                        <img src="Villa/moi1.jpg" alt="">
+                        <div class="info">
+                            <h3>Franck Fotso</h3>
+                            <span>Software Developpement</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <p class="text">he first office suite in Linux was OpenOffice, created by SUN in the 2000s. When Oracle 
+                        bought SUN, the suite was no longer a priority for the famous database manager, so The Apache 
+                        Software Foundation took it under its wing.
+                    </p>
+                    <div class="user">
+                        <img src="Villa/moi2.jpg" alt="">
+                        <div class="info">
+                            <h3>Franck Fotso</h3>
+                            <span>Web Developper</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <p class="text">he first office suite in Linux was OpenOffice, created by SUN in the 2000s. When Oracle 
+                        bought SUN, the suite was no longer a priority for the famous database manager, so The Apache 
+                        Software Foundation took it under its wing.
+                    </p>
+                    <div class="user">
+                        <img src="Villa/moi3.jpg" alt="">
+                        <div class="info">
+                            <h3>Claire Tabue</h3>
+                            <span>Software Developper</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <p class="text">he first office suite in Linux was OpenOffice, created by SUN in the 2000s. When Oracle 
+                        bought SUN, the suite was no longer a priority for the famous database manager, so The Apache 
+                        Software Foundation took it under its wing.
+                    </p>
+                    <div class="user">
+                        <img src="Villa/moi4 (1).jpg" alt="">
+                        <div class="info">
+                            <h3>Aliko Dangote</h3>
+                            <span>Entrepreneur Africain</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <p class="text">he first office suite in Linux was OpenOffice, created by SUN in the 2000s. When Oracle 
+                        bought SUN, the suite was no longer a priority for the famous database manager, so The Apache 
+                        Software Foundation took it under its wing.
+                    </p>
+                    <div class="user">
+                        <img src="Villa/moi4 (3).jpg" alt="">
+                        <div class="info">
+                            <h3>Elon Musk</h3>
+                            <span>Entrepreneur Americain</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <p class="text">he first office suite in Linux was OpenOffice, created by SUN in the 2000s. When Oracle 
+                        bought SUN, the suite was no longer a priority for the famous database manager, so The Apache 
+                        Software Foundation took it under its wing.
+                    </p>
+                    <div class="user">
+                        <img src="Villa/moi4 (2).jpg" alt="">
+                        <div class="info">
+                            <h3>Nelson Mandela</h3>
+                            <span>President Africain</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- reviews section ends -->
+
+    <!-- services section starts -->
+
+    <section class="services">
+
+        <h1 class="heading"> What we offer </h1>
+        <div class="box-container">
+
+            <div class="box">
+                <img src="villa/light.jpg" alt="">
+                <h3>complete guide</h3>
+                <p>The first office suite in Linux was OpenOffice.</p>
+                <a href="#" class="btn">Read more</a>
+            </div>
+
+            <div class="box">
+                <img src="villa/location.jpg" alt="">
+                <h3>custom packages</h3>
+                <p>The first office suite in Linux was OpenOffice.</p>
+                <a href="#" class="btn">Read more</a>
+            </div>
+
+            <div class="box">
+                <img src="villa/icons cuisine.jpg" alt="">
+                <h3>custom packages</h3>
+                <p>The first office suite in Linux was OpenOffice.</p>
+                <a href="#" class="btn">Read more</a>
+            </div>
+
+            <div class="box">
+                <img src="villa/house.jpg" alt="">
+                <h3>adventure trail</h3>
+                <p>The first office suite in Linux was OpenOffice.</p>
+                <a href="#" class="btn">Read more</a>
+            </div>
+
+            <div class="box">
+                <img src="villa/iconBureau.jpg" alt="">
+                <h3>family trips</h3>
+                <p>The first office suite in Linux was OpenOffice.</p>
+                <a href="#" class="btn">Read more</a>
+            </div>
+
+            <div class="box">
+                <img src="villa/room.jpg" alt="">
+                <h3>train guides</h3>
+                <p>The first office suite in Linux was OpenOffice.</p>
+                <a href="#" class="btn">Read more</a>
+            </div>
+            
+        </div>
+
+    </section>
+
+    <!-- services section ends -->
+
+    <!-- newsletter section start -->
+
+    <section class="newsletter">
+
+        <div class="content">
+            <h1 class="heading">Subscribe Now</h1>
+            <p>The first office suite in Linux was OpenOffice.
+                The first office suite in Linux was OpenOffice.
+                The first office suite in Linux was OpenOffice.
+            </p>
+            <form action="">
+                <input type="email" name="" placeholder="enter your email" id="" class="email">
+                <input type="submit" value="Subscribe" class="btn">
+            </form>
+        </div>
+
+    </section>
+
+    <!-- newsletter section ends -->
+
+    <section class="clients">
+
+        <div class="swiper clients-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slide"><img src="Villa/client-logo1.jpg" alt=""></div>
+                <div class="swiper-slide slide"><img src="Villa/client-logo2.jpg" alt=""></div>
+                <div class="swiper-slide slide"><img src="Villa/client-logo3.jpg" alt=""></div>
+                <div class="swiper-slide slide"><img src="Villa/client-logo4.jpg" alt=""></div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- footer section start -->
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>Quick links</h3>
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#shop">Shop</a>
+                <a href="#packages">Packages</a>
+                <a href="#reviews">Reviews</a>
+            </div>
+
+            <div class="box">
+                <h3>Extra links</h3>
+                <a href="#">my account</a>
+                <a href="#">my order</a>
+                <a href="#">my wishlist</a>
+                <a href="#">ask questions</a>
+                <a href="#">privacy policy</a>
+            </div>
+
+            <div class="box">
+                <h3>Contact info</h3>
+                <a href="#"><i class="fas fa-phone"></i>+237 678 893 147</a>
+                <a href="#"><i class="fas fa-phone"></i>+237 658 449 682</a>
+                <a href="#"><i class="fas fa-envelope"></i>franckfotso@gmail.com</a>
+                <a href="#"><i class="fas fa-map"></i>Canada, USA, Dubai</a>
+            </div>
+
+            <div class="box">
+                <h3>Follow us</h3>
+                <a href="#"><i class="fab fa-facebook-f"></i>Facebook</a>
+                <a href="#"><i class="fab fa-twitter"></i>Twitter</a>
+                <a href="#"><i class="fab fa-instagram"></i>Instagram</a>
+                <a href="#"><i class="fab fa-linkedin"></i>Linkedin</a>
+                <a href="#"><i class="fab fa-github"></i>Github</a>
+            </div>
+
+        </div>
+
+        <div class="credit">Created by <span>Mr. Franck Fotso @ La Flemme</span> | all right reserved!</div>
+
+    </section>
+
+    <!-- footer section ends -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    
+    <!-- custom js file link -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>

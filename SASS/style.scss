@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+@import "./utils/variables";
+@import "./utils/mixin";
+
+@import "./base/base";
+
+@import "./layout/header";
+@import "./layout/searchForm";
+
+@import "./components/boutons";
+@import "./pages/home";
+@import "./pages/about";
+@import "./pages/shop";
+@import "./pages/package";
+@import "./pages/reviews";
+@import "./pages/services";
+
+@import "./layout/newsletter";
+@import "./layout/footer";
+
+@import "./base/mediaQuerie";
